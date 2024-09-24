@@ -20,5 +20,8 @@
     "radix-vue": "^1.9.6",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/pwa": "^3.3.5"
   }
 }

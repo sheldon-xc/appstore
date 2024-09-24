@@ -16,6 +16,9 @@ export default defineNuxtConfig({
     'nuxt-rating',
     '@vueuse/nuxt',
   ],
+  buildModules: [
+    '@nuxtjs/pwa',
+  ],
   tailwindcss: {
     exposeConfig: true,
     viewer: true,

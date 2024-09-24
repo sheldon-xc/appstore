@@ -19,6 +19,7 @@ pnpm run build
 ```
 
 ## 部署
-根据你打包出来的文件 `.output` 文件夹下
+根据你打包出来的路径运行 `node .output/server/index.mjs`
+使用 `nginx` 进行域名反代
 
 ## 可以根据 App 名称,ID和简介搜索 App
